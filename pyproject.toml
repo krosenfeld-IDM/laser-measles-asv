@@ -1,0 +1,13 @@
+[project]
+name = "laser-measles-asv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "asv>=0.6.4",
+    "laser-measles",
+]
+
+[tool.uv.sources]
+laser-measles = { git = "https://github.com/InstituteforDiseaseModeling/laser-measles.git" }
